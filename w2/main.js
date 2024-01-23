@@ -10,4 +10,4 @@ const total = myHousehold + myHome + myFood + myWater + myPurchases + myWaste + 
 
 
 const myHeading = document.querySelector("h2");
-myHeading.textContent = "91";
+myHeading.textContent = total;
