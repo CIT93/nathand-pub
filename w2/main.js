@@ -7,5 +7,7 @@ const myWaste = 30
 const myRecycle = 14
 const myTransportation = 10
 const total = myHousehold + myHome + myFood + myWater + myPurchases + myWaste + myRecycle + myRecycle 
+
+
 const myHeading = document.querySelector("h2");
 myHeading.textContent = "91";
