@@ -20,29 +20,22 @@ function determineHouseHoldpts() {
   );
 }
 
-
 const numberInHouseHold = 1;
-
 
 //global scope
 
-determineHouseHoldpts(3)
-determineHouseHoldpts(4)
-
+determineHouseHoldpts(3);
+determineHouseHoldpts(4);
 
 let carbonFootPoints = 0;
-const Sizeofhousehold = 
-
-function Householdsize() {
-    if (size === "large") {
-        carbonFootPoints = carbonFootPoints + 10;}
-        else if (size === "medium") {
-            carbonFootPoints = carbonFootPoints + 7;
-        }
-        else if (size === "small") {
-            carbonFootPoints = carbonFootPoints + 4;
-        }
-        else if (size === "apartment") {
-            carbonFootPoints = carbonFootPoints + 2;
-        }
-}
+const Sizeofhousehold = function Householdsize(size) {
+  if (size === "large") {
+    carbonFootPoints = carbonFootPoints + 10;
+  } else if (size === "medium") {
+    carbonFootPoints = carbonFootPoints + 7;
+  } else if (size === "small") {
+    carbonFootPoints = carbonFootPoints + 4;
+  } else if (size === "apartment") {
+    carbonFootPoints = carbonFootPoints + 2;
+  }
+};
